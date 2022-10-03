@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    font-family: "lato", sans-serif;
+    color: #555;
+}
+body{
+    margin: 0%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #b8c0d7;
+    }
+.login-div{
+    width: 330px;
+    height: 600px;
+    
+    border-radius: 36px;
+    box-shadow:  -33px -33px 65px #9ba1b5,
+    33px 33px 65px #d5dff9;
+    padding: 50px 35px 35px 35px;
+}
+.logo{
+    background: url("logo.png");
+  width: 70px;
+  height: 70px;
+  border-radius: 36px;
+  margin: 0 auto;
+  box-shadow: -33px -33px 65px #9ba1b5,
+  33px 33px 65px #d5dff9;
+
+}
+.titulo{
+text-align: center;
+font-size: 28px;
+font-weight: 700;
+letter-spacing: 0.7;
+padding-top: 24 px;
+
+}
+.subtitulo{
+text-align: center;
+font-size: 16px;
+margin-top: 7px;
+letter-spacing: 3px;
+}
+.campos{
+    margin-top: 55px;
+}
+.usuario,.contra{
+    margin-bottom:32px;
+    border-radius: 27px;
+    background: #b8c0d7;
+    box-shadow: inset 33px 33px 65px #9ba1b5,
+                inset -33px -33px 65px #d5dff9;
+
+}
+input{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 14px;
+    margin: 20px 10px;
+}
+svg{
+    height: 20px;
+    margin: 3px 15px -5px 15px;
+}
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+font-weight: 700;
+color: white;
+background: #8797c7 ;
+border-radius: 27px;
+background: #8797c7;
+box-shadow:  7px -7px 14px #7482ab,
+-7px 7px 14px #9aace3;
+transition: 0.5s;
+}
+button:hover{
+    background: #6b7cb1;
+}
+button:active{
+    background: #7482ab;
+}
+.link{
+    padding-top: 20px;
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+    color: #b8c0d7 ;
+    font-size: 15px;
+
+}
